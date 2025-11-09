@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{hyperref}
+
+% Deliberately not loading the xcolor package to avoid the dependency.
+% Instead, we configure hyperref to not use colors.
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+\begin{document}
+
+\maketitle
+
+$body$
+
+\end{document}
+
